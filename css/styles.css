@@ -1,0 +1,48 @@
+body
+{
+  color: khaki;
+  background-color: midnightblue;
+  text-align: center;
+}
+hr
+{
+  /*! padding: 1rem; */
+  border-style: solid;
+  border-color: wheat;
+}
+#FirstP::first-letter
+{
+  font-size:xx-large;
+  /*! color: yellow; */
+}
+.LeftImage
+{
+  background-color: red; 
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  /*does nothing obvious in flex? defined anyway incase it's not flex*/
+  float: left;
+}
+.RightImage
+{
+  background-color: magenta; 
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  /*ditto*/
+  float: right;
+}
+#SERIOUS_TEXT
+{
+  font-family: sans-serif;
+  font-size: smaller;
+}
+#IntroSection
+{
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  border-style: double;
+  border-color: cornflowerblue;
+}
