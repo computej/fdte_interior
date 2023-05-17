@@ -10,10 +10,19 @@ hr
   border-style: solid;
   border-color: wheat;
 }
-#FirstP::first-letter
+p:not(#SERIOUS_TEXT)::first-letter
+/*what is not the last? */
 {
   font-size:xx-large;
+  color: gold;
+  text-shadow: -1px 1px 1px goldenrod;
+  
   /*! color: yellow; */
+}
+.LeftImage::before
+{
+  /*help it fit*/
+  padding: 3px;
 }
 .LeftImage
 {
@@ -23,6 +32,10 @@ hr
   height: 100px;
   /*does nothing obvious in flex? defined anyway incase it's not flex*/
   float: left;
+}
+.RightImage::before
+{
+  padding: 3px;
 }
 .RightImage
 {
@@ -42,7 +55,7 @@ hr
 {
   display: flex;
   margin: 0 auto;
-  width: 500px;
+  width: 50%;
   border-style: double;
   border-color: cornflowerblue;
 }
