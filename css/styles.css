@@ -19,43 +19,41 @@ p:not(#SERIOUS_TEXT)::first-letter
   
   /*! color: yellow; */
 }
-.LeftImage::before
+.LeftSide
 {
-  /*help it fit*/
-  padding: 3px;
-}
-.LeftImage
-{
-  background-color: red; 
+  padding: 100px 1px;
+  background-color: cornflowerblue; 
+  border-style: none none none dotted;
+  border-color: royalblue;
   margin: auto;
-  width: 100px;
-  height: 100px;
+  /*! width: 100px; */
+  /*! display: flow-root; */
   /*does nothing obvious in flex? defined anyway incase it's not flex*/
-  float: left;
 }
-.RightImage::before
+.RightSide
 {
-  padding: 3px;
-}
-.RightImage
-{
-  background-color: magenta; 
+  padding: 100px 1px;
+  background-color: cornflowerblue; 
+  border-style: none dotted none none;
+  border-color: royalblue;
   margin: auto;
-  width: 100px;
-  height: 100px;
   /*ditto*/
   float: right;
 }
 #SERIOUS_TEXT
 {
-  font-family: sans-serif;
-  font-size: smaller;
+  font-family:  consolas ,roboto ,sans-serif;
+  font-size: 0.66rem;
 }
 #IntroSection
 {
   display: flex;
   margin: 0 auto;
   width: 50%;
-  border-style: double;
+  border-style: solid;
   border-color: cornflowerblue;
+}
+#BeforeAfterSect
+{
+  
 }
