@@ -26,9 +26,6 @@ p:not(#SERIOUS_TEXT)::first-letter
   border-style: none none none dotted;
   border-color: royalblue;
   margin: auto;
-  /*! width: 100px; */
-  /*! display: flow-root; */
-  /*does nothing obvious in flex? defined anyway incase it's not flex*/
 }
 .RightSide
 {
@@ -55,5 +52,18 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 #BeforeAfterSect
 {
-  
+  margin: 0 auto;
+  width: 50%;
+  border-style: solid;
+  border-color: cornflowerblue;
+}
+#BeforePic
+{
+  float: left;
+  width: 150px;
+}
+#AfterPic
+{
+  float: right;
+  width: 150px;
 }
