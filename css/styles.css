@@ -54,9 +54,15 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 figure
 {
+  display: grid;
   margin: auto;
   float: left;
   border-style: double;
+}
+figcaption
+{
+  padding: 2px;
+  background-color: black;
 }
 #AfterFigure
 {
@@ -64,5 +70,5 @@ figure
 }
 #BeforePic,#AfterPic
 {
-  width: 150px;
+  width: 180px;
 }
