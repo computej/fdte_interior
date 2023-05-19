@@ -21,49 +21,48 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 .LeftSide
 {
-  padding: 100px 1px;
-  background-color: cornflowerblue; 
   border-style: none none none dotted;
-  border-color: royalblue;
-  margin: auto;
 }
+.RightSide
+{
+    border-style: none dotted none none;
+}
+.LeftSide,
 .RightSide
 {
   padding: 100px 1px;
   background-color: cornflowerblue; 
-  border-style: none dotted none none;
   border-color: royalblue;
   margin: auto;
-  /*ditto*/
-  float: right;
 }
 #SERIOUS_TEXT
 {
   font-family:  consolas ,roboto ,sans-serif;
   font-size: 0.66rem;
 }
+#IntroSection,#BeforeAfterSect
+{
+  margin: 0 auto;
+  width: 50%;
+  border-style: solid;
+  border-color: cornflowerblue;
+}
 #IntroSection
 {
   display: flex;
   margin: 0 auto;
-  width: 50%;
-  border-style: solid;
-  border-color: cornflowerblue;
 }
-#BeforeAfterSect
+figure
 {
-  margin: 0 auto;
-  width: 50%;
-  border-style: solid;
-  border-color: cornflowerblue;
-}
-#BeforePic
-{
+  margin: auto;
   float: left;
-  width: 150px;
+  border-style: double;
 }
-#AfterPic
+#AfterFigure
 {
   float: right;
+}
+#BeforePic,#AfterPic
+{
   width: 150px;
 }
