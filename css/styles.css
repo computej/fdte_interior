@@ -16,7 +16,6 @@ p:not(#SERIOUS_TEXT)::first-letter
   font-size:xx-large;
   color: gold;
   text-shadow: -1px 1px 1px goldenrod;
-  
   /*! color: yellow; */
 }
 .LeftSide
@@ -25,7 +24,7 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 .RightSide
 {
-    border-style: none dotted none none;
+  border-style: none dotted none none;
 }
 .LeftSide,
 .RightSide
