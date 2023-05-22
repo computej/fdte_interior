@@ -49,6 +49,12 @@ p:not(#SERIOUS_TEXT)::first-letter
 #BeforeAfterSect
 {
   height: 500px;
+  background-color: midnightblue;
+}
+div
+{
+  background-color: navy;
+  padding: 1em 5px;
 }
 #IntroSection
 {
@@ -75,13 +81,13 @@ figcaption
 }
 #FirstColumn
 {
-  width: 49%;
+  width: 40%;
 }
 #SecondColumn
 {
   float: right;
   border-style: none none none dotted;
-  width: 50%
+  width: 40%
 }
 #AfterFigure
 {
