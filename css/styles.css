@@ -42,9 +42,13 @@ p:not(#SERIOUS_TEXT)::first-letter
 #IntroSection,#BeforeAfterSect
 {
   margin: 0 auto;
-  width: 50%;
+  width: 66%;
   border-style: solid;
   border-color: cornflowerblue;
+}
+#BeforeAfterSect
+{
+  height: 500px;
 }
 #IntroSection
 {
@@ -63,9 +67,25 @@ figcaption
   padding: 2px;
   background-color: black;
 }
-#AfterFigure
+#FirstColumn,#SecondColumn
+{
+  float: left;
+  /*! width: 40%; */
+  border-style: none dotted none none;
+}
+#FirstColumn
+{
+  width: 49%;
+}
+#SecondColumn
 {
   float: right;
+  border-style: none none none dotted;
+  width: 50%
+}
+#AfterFigure
+{
+  float: left;
 }
 #BeforePic,#AfterPic,#DuringPic
 {
