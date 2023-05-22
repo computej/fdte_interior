@@ -37,7 +37,7 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 #SERIOUS_TEXT
 {
-  font-family:  consolas ,roboto ,sans-serif;
+  font-family: consolas ,roboto ,sans-serif;
   font-size: 0.66rem;
 }
 #IntroSection,#BeforeAfterSect
@@ -68,7 +68,7 @@ figcaption
 {
   float: right;
 }
-#BeforePic,#AfterPic
+#BeforePic,#AfterPic,#DuringPic
 {
   width: 180px;
 }
