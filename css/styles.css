@@ -48,7 +48,7 @@ p:not(#SERIOUS_TEXT)::first-letter
 }
 #BeforeAfterSect
 {
-  height: 300px;
+  height: 250px;
   background-color: midnightblue;
 }
 
@@ -69,7 +69,7 @@ figcaption
   padding: 2px;
   background-color: black;
 }
-#FirstColumn, #SecondColumn, #ThirdColumn
+.column_stuff
 {
   margin: 5px;
   border-style: none dashed none none;
@@ -77,15 +77,20 @@ figcaption
   float: left;
   width: 32%;
   /*to make the border touch the bottom of the section*/
-  height: 100%;
+  height: calc(100% - 5px);
+}
+#FirstColumn
+{
+  background-color: red;
+}
+#SecondColumn
+{
+  background-color: darkgreen;
 }
 #ThirdColumn
 {
   float: right;
-}
-#AfterFigure
-{
-  float: left;
+  background-color: navy;
 }
 #BeforePic,#AfterPic,#DuringPic
 {
