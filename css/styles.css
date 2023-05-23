@@ -92,7 +92,7 @@ figcaption
   float: right;
   background-color: navy;
 }
-#BeforePic,#AfterPic,#DuringPic
+figure img
 {
   width: 180px;
 }
